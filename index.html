@@ -10,16 +10,17 @@
    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap"
       rel="stylesheet">
    <script src="https://kit.fontawesome.com/00b3499e31.js" crossorigin="anonymous"></script>
+   
    <title>Document</title>
 </head>
 <body>
-   <div class="fixed-navbar">
+   <!-- <div class="fixed-navbar"> -->
       <header id="header" class="wpo-header-style-1">
          <div class="wpo-site-header">
             <nav class="navigation navbar navbar-expand-lg navbar-light">
                <div class="container">
                   <div class="row align-items-center">
-                     <div class="col-lg-3 col-md-3 col-3 d-lg-none dl-block">
+                     <!-- <div class="col-lg-3 col-md-3 col-3 d-lg-none dl-block">
                         <div>
                            <div class="mobileMenu ">
                               <div class="menu-close">
@@ -34,15 +35,18 @@
                                  <ul class="MuiList-root MuiList-padding"><a>Blog</a></ul>
                               </ul>
                            </div>
-                           <div class="showmenu"><button type="button" class="navbar-toggler open-btn"></button></div>
+                           <div class="showmenu"><button type="button" class="navbar-toggler open-btn"><span
+                                    class="icon-bar first-angle"></span><span class="icon-bar middle-angle"></span><span
+                                    class="icon-bar last-angle"></span></button></div>
                         </div>
-                     </div>
+                     </div> -->
                      <div class="col-lg-2 col-md-6 col-6">
-                        <div class="navbar-header"><a class="navbar-brand site-logo">Elito.</a></div>
+                        <div class="navbar-header"><a class="navbar-brand site-logo"><img
+                                 src="data:image/png;base64,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"
+                                 alt="">Elito.</a></div>
                      </div>
                      <div class="col-lg-8 col-md-1 col-1">
-                        <div id="navbar" class="collapse navbar-collapse navigation-holder"><button class="menu-close"><i
-                                 class="ti-close"></i></button>
+                        <div id="navbar">
                            <ul class="nav navbar-nav mb-2 mb-lg-0">
                               <li><a class="active">Home</a></li>
                               <li><a>About</a></li>
@@ -56,8 +60,7 @@
                      <div class="col-lg-2 col-md-2 col-2">
                         <div class="header-right">
                            <div class="header-btn"><a class="theme-btn" download="My Cv"
-                                 href="/static/media/cv.935c797a681df0dfc85a.jpg" title="ImageName"><img class="hide-img"
-                                    alt="ImageName" src="/static/media/cv.935c797a681df0dfc85a.jpg">Resume</a></div>
+                                 href="/static/media/cv.935c797a681df0dfc85a.jpg">Resume<i class="fa-sharp fa-solid fa-arrow-down"></i></a></div>
                         </div>
                      </div>
                   </div>
@@ -66,25 +69,51 @@
          </div>
       </header>
    </div>
-   <div class="element">
-      <div class="hero-inner">
-         <div class="container">
-            <div class="wpo-static-hero-inner">
-               <div data-swiper-parallax="300" class="slide-title">
-                  <h2><span>Hello,</span>I am Mriganka.</h2>
+   <section class="static-hero">
+      <div class="hero-container">
+         <div class="hero-inner">
+            <div class="container">
+               <div class="row align-items-center">
+                  <div class="col-xl-6 col-lg-6 col-12">
+                     <div class="wpo-static-hero-inner">
+                        <div data-swiper-parallax="300" class="slide-title">
+                           <h2><span>Hello,</span>I am Mriganka.</h2>
+                        </div>
+                        <div data-swiper-parallax="300" class="slide-sub-title">
+                           <h5>UI/UX Designer</h5>
+                        </div>
+                        <div data-swiper-parallax="400" class="slide-text">
+                           <p>Must explain to how all this mistaken idea denouncing pleasure pain the system and expound the
+                              actua.</p>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="slide-btn"><a class="theme-btn">Hire Me<i class="fa-solid fa-arrow-right"></i></a></div>
+                     </div>
+                  </div>
                </div>
-               <div data-swiper-parallax="300" class="slide-sub-title">
-                  <h5>Full Stack Developer</h5>
-               </div>
-               <div data-swiper-parallax="400" class="slide-text">
-                  <p>Must explain to how all this mistaken idea denouncing pleasure pain the system and expound the actua.</p>
-               </div>
-               <div class="clearfix"></div>
-               <div class="slide-btn"><a class="theme-btn">Hire Me</a></div>
             </div>
          </div>
       </div>
-   </div>
+      <div class="static-hero-right">
+         <div class="static-hero-img">
+            <div class="static-hero-img-inner"><img src="https://elito-react.wpocean.com/static/media/1.0452114fb5668eb736db.jpg" alt="">
+               <div class="icon-1 floating-item"><img src="image/icons8-java.svg"
+                     alt=""></div>
+               <div class="icon-2 floating-item"><img src="image/icons8-javascript.svg"
+                     alt=""></div>
+               <div class="icon-3 floating-item"><img src="image/icons8-css3.svg" alt="">
+               </div>
+               <div class="project floating-item">
+                  <div class="icon"><i class="fa-regular fa-shield-check"></i></div>
+                  <div class="p-text">
+                     <h3><span data-count="1500">15</span>+</h3>
+                     <p>Complete Project</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
    <div class="element1"></div>
 </body>
 </html>
