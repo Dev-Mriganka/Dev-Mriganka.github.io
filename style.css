@@ -311,14 +311,15 @@ header {
    width: 100vw;
    height: 100vh;
    background:
-   radial-gradient(circle at 90% 90%,
-         rgba(12, 1, 2, 0.356), transparent 200px),
+   
       radial-gradient(circle at 13% 30%,
          rgb(64, 26, 30), transparent 600px),
       /* radial-gradient(circle at center, rgb(69, 63, 14) 0% 80%, #0000 81% 100%); */
       radial-gradient(circle at 95% 10%,
          rgb(32, 61, 70), transparent 500px),
-      radial-gradient(circle at 60% 60%, rgb(69, 63, 14),transparent 500px);
+      radial-gradient(circle at 60% 60%, rgb(69, 63, 14),transparent 500px),
+      radial-gradient(circle at 98% 98%,
+            rgba(44, 0, 4, 0.486), transparent 200px);
 }
 
 .hero-container .hero-inner {
