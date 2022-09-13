@@ -12,6 +12,13 @@
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
       integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
       crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+         integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+            integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
    
    <title>Document</title>
 </head>
@@ -72,11 +79,7 @@
       </header>
    </div>
    <section class="static-hero">
-      <svg viewBox="500 500">
-         <path d="M 10 10 L10 100 M10 100 L100 100 M100 
-                100 L100 10 M100 10 L10 10" stroke="black">
-         </path>
-      </svg>
+
       <div class="hero-container">
          <div class="hero-inner">
             <div class="container">
@@ -125,13 +128,20 @@
       <div class="container">
          <div class="row align-items-center">
             <div class="col-lg-5 col-md-12 col-sm-12">
-               <div class="wpo-about-exprience-wrap">
-                  <div class="wpo-about-exprience">
-                     <h2>08</h2><span>Years of Experience</span>
+               <div class="row wpo-about">
+                  <div class="col-lg-12 col-md-12 col-sm-12 ">
+                     <div class="wpo-about-exprience-wrap">
+                        <div class="wpo-about-exprience">
+                           <h2>1200+</h2><span>Hours of Coding</span>
+                        </div>
+                     </div>
                   </div>
-                  <div class="client">
-                     <h3><span data-count="100">100</span>%</h3>
-                     <p>Clients Satisfections</p>
+                  <div class="col-lg-12 col-md-12 col-sm-12">
+                     <div class="wpo-about-exprience-wrap">
+                        <div class="wpo-about-exprience">
+                           <h2>1000+</h2><span>Hours of DSA</span>
+                        </div>
+                     </div>
                   </div>
                </div>
             </div>
@@ -180,26 +190,242 @@
                            <p>ReactJS</p>
                         </div>
                      </div>
+                     <div class="grid">
+                        <div class="grid-inner">
+                           <h3><span data-count="90">98</span>%</h3>
+                           <p>Figma</p>
+                        </div>
+                     </div>
+                     <div class="grid">
+                        <div class="grid-inner">
+                           <h3><span data-count="08">92</span>%</h3>
+                           <p>Sketch</p>
+                        </div>
+                     </div>
+                     <div class="grid">
+                        <div class="grid-inner">
+                           <h3><span data-count="15">88</span>%</h3>
+                           <p>Photoshop</p>
+                        </div>
+                     </div>
                   </div>
                </div>
             </div>
          </div>
       </div>
    </div>
-   <div class="element1">
-< viewBox="500 500">
-   // Creating a rectangle starting point is 10, 10
-   // Making a line to 10 100
-   // Moving point to 10 100
-   // Making line to 100 100
-   // Moving point to 100 100
-   // Making line to 100 10
-   // Moving point to 100 10
-   // Making line to 10 10 -->
-   <path d='M0,231
-              C207,170 351,260 260,459' />
+   <section class="wpo-blog-section section-padding" id="blog">
+      <div class="container">
+         <div class="row justify-content-center">
+            <div class="col-lg-5">
+               <div class="wpo-section-title">
+                  <h2>Latest Projects</h2>
+                  <p>Must explain to you how all this mistaken idea pleasure born and give you a complete account.</p>
+               </div>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-md-3 text-center col-padding animate-box fadeInUp animated-fast">
+               <a href="#" class="work" style="background-image: url(images/portfolio-1.jpg);">
+                  <div class="desc">
+                     <h3>Project Name</h3>
+                     <span>Illustration</span>
+                  </div>
+               </a>
+            </div>
+            <div class="col-md-3 text-center col-padding animate-box fadeInUp animated-fast">
+               <a href="#" class="work" style="background-image: url(images/portfolio-2.jpg);">
+                  <div class="desc">
+                     <h3>Project Name</h3>
+                     <span>Brading</span>
+                  </div>
+               </a>
+            </div>
+            <div class="col-md-3 text-center col-padding animate-box fadeInUp animated-fast">
+               <a href="#" class="work" style="background-image: url(images/portfolio-3.jpg);">
+                  <div class="desc">
+                     <h3>Project Name</h3>
+                     <span>Illustration</span>
+                  </div>
+               </a>
+            </div>
+            <div class="col-md-3 text-center col-padding animate-box fadeInUp animated-fast">
+               <a href="#" class="work" style="background-image: url(images/portfolio-4.jpg);">
+                  <div class="desc">
+                     <h3>Project Name</h3>
+                     <span>Design</span>
+                  </div>
+               </a>
+            </div>
+            <div class="col-md-3 text-center col-padding animate-box fadeInUp animated-fast">
+               <a href="#" class="work" style="background-image: url(images/portfolio-5.jpg);">
+                  <div class="desc">
+                     <h3>Project Name</h3>
+                     <span>Website</span>
+                  </div>
+               </a>
+            </div>
+            <div class="col-md-3 text-center col-padding animate-box fadeInUp animated-fast">
+               <a href="#" class="work" style="background-image: url(images/portfolio-6.jpg);">
+                  <div class="desc">
+                     <h3>Project Name</h3>
+                     <span>Illustration</span>
+                  </div>
+               </a>
+            </div>
+            <div class="col-md-3 text-center col-padding animate-box fadeInUp animated-fast">
+               <a href="#" class="work" style="background-image: url(images/portfolio-7.jpg);">
+                  <div class="desc">
+                     <h3>Project Name</h3>
+                     <span>Brading</span>
+                  </div>
+               </a>
+            </div>
+            <div class="col-md-3 text-center col-padding animate-box fadeInUp animated-fast">
+               <a href="#" class="work" style="background-image: url(images/portfolio-8.jpg);">
+                  <div class="desc">
+                     <h3>Project Name</h3>
+                     <span>Illustration</span>
+                  </div>
+               </a>
+            </div>
+         </div>
+      </div>
+   </section>
+   <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+      <div class="container ">
+         <div class="row justify-content-center mb-5 pb-3">
+            <div class="col-md-7 heading-section text-center ftco-animate fadeInUp ftco-animated">
+               
+               <h2 class="mb-4">Contact Me</h2>
+               <h1 class="big big-2">Contact</h1>
+               <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+            </div>
+         </div>
    
-</svg>
-   </div>
+         <div class="row d-flex contact-info mb-5">
+           
+         </div>
+         <div class="row wpo-wpo-contact-form-map">
+            <div class="co-lg-10 offset-lg-1  col-12">
+               <div class="row">
+                  <div class="col col-lg-5 col-md-12 col-12">
+                     <div class="wpo-contact-form">
+                        <h2>Get In Touch</h2>
+                        <form class="contact-validation-active">
+                           <div class="row">
+                              <div class="col col-lg-12 col-12">
+                                 <div class="form-field"><input type="text" name="name" placeholder="Your Name" value=""></div>
+                              </div>
+                              <div class="col col-lg-12 col-12">
+                                 <div class="form-field"><input type="email" name="email" placeholder="Your Email" value="">
+                                 </div>
+                              </div>
+                              <div class="col col-lg-12 col-12">
+                                 <div class="form-field"><input type="phone" name="phone" placeholder="Your phone" value="">
+                                 </div>
+                              </div>
+                              <div class="col col-lg-12 col-12"><textarea type="text" name="message"
+                                    placeholder="Message"></textarea></div>
+                           </div>
+                           <div class="submit-area"><button type="submit" class="theme-btn">Submit Now</button></div>
+                        </form>
+                     </div>
+                  </div>
+                  <div class="col col-lg-6 col-md-12 col-12">
+                     <div class="row">                       
+                        <div class="col-md-6 col-lg-6 d-flex ftco-animate fadeInUp ftco-animated">
+                           <div class="align-self-stretch box pr-0 p-4 text-center">
+                              <a href="#">
+                                 <div class="icon d-flex align-items-center justify-content-center">
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                 </div>
+                                 <h3 class="mb-4">Linkedin</h3>
+                              </a>
+                           </div>
+                        </div>
+                        <div class="col-md-6 col-lg-6 d-flex ftco-animate fadeInUp ftco-animated">
+                           <div class="align-self-stretch box pl-0 p-4 text-center">
+                              <a href="#">
+                                 <div class="icon d-flex align-items-center justify-content-center">
+                                    <i class="fa-solid fa-phone"></i>
+                                 </div>
+                                 <h3 class="mb-4">+91-7596943998</h3>
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="col-md-6 col-lg-6 d-flex ftco-animate fadeInUp ftco-animated">
+                           <div class="align-self-stretch box pr-0 p-4 text-center">
+                              <a href="#">
+                                 <div class="icon d-flex align-items-center justify-content-center email-icon">
+                                    <i class="fa-solid fa-envelope"></i>
+                                 </div>
+                                 <h3 class="mb-4">Email</h3>
+                              </a>
+                           </div>
+                        </div>
+                        <div class="col-md-6 col-lg-6 d-flex ftco-animate fadeInUp ftco-animated">
+                           <div class="align-self-stretch box pl-0 p-4 text-center">
+                              <a href="#">
+                                 <div class="icon d-flex align-items-center justify-content-center">
+                                    <i class="fa-brands fa-github"></i>
+                                 </div>
+                                 <h3 class="mb-4">Github</h3>
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="col-md-6 col-lg-6 d-flex ftco-animate fadeInUp ftco-animated">
+                           <div class="align-self-stretch box pr-0 p-4 text-center">
+                              <a href="#">
+                                 <div class="icon d-flex align-items-center justify-content-center email-icon">
+                                    <i class="fa-brands fa-twitter"></i>
+                                 </div>
+                                 <h3 class="mb-4">Twitter</h3>
+                              </a>
+                           </div>
+                        </div>
+                        <div class="col-md-6 col-lg-6 d-flex ftco-animate fadeInUp ftco-animated">
+                           <div class="align-self-stretch box pl-0 p-4 text-center">
+                              <a href="#">
+                                 <div class="icon d-flex align-items-center justify-content-center">
+                                    <i class="fa-brands fa-instagram"></i>
+                                 </div>
+                                 <h3 class="mb-4">Instagram</h3>
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+      </div>
+   </section>
+   <footer id="footer" class="section bg-dark text-white">
+      <div class="container">
+         <div class="row">
+            <div class="col-lg-6 text-center text-lg-start wow fadeInUp" style="visibility: visible;">
+               <p class="mb-2 mb-lg-0">Copyright © 2021 <a class="fw-600" href="#">Callum</a>. All Rights Reserved.</p>
+            </div>
+            <div class="col-lg-6 wow fadeInUp" style="visibility: visible;">
+               <p class="mb-0 text-center text-lg-end">Designed by <a class="fw-600"
+                     href="http://www.harnishdesign.net/">Harnish Design</a></p>
+            </div>
+         </div>
+      </div>
+   </footer>
 </body>
+<script src="jquery.min.js"></script>
+<script src="./OwlCarousel/dist/owl.carousel.min.js"></script>
+<script>
+   $(document).ready(function () {
+         $(".owl-carousel").owlCarousel();
+      });
+</script>
+
 </html>
