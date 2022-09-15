@@ -5,6 +5,7 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="./style.css">
+   <link rel="stylesheet" href="./responsive.css">
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap"
@@ -12,12 +13,6 @@
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
       integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
       crossorigin="anonymous" referrerpolicy="no-referrer" />
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
-         integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
-         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
-            integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
-            crossorigin="anonymous" referrerpolicy="no-referrer" />
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
    
    <title>Document</title>
@@ -29,11 +24,11 @@
             <nav class="navigation navbar navbar-expand-lg navbar-light">
                <div class="container">
                   <div class="row align-items-center">
-                     <!-- <div class="col-lg-3 col-md-3 col-3 d-lg-none dl-block">
+                     <div class="col-lg-3 col-md-3 col-3 d-lg-none dl-block">
                         <div>
                            <div class="mobileMenu ">
                               <div class="menu-close">
-                                 <div class="clox"><i class="ti-close"></i></div>
+                                 <div class="clox"><i class="fa-solid fa-xmark"></i></div>
                               </div>
                               <ul class="responsivemenu">
                                  <ul class="MuiList-root MuiList-padding"><a class="active">Home</a></ul>
@@ -44,12 +39,13 @@
                                  <ul class="MuiList-root MuiList-padding"><a>Blog</a></ul>
                               </ul>
                            </div>
-                           <div class="showmenu"><button type="button" class="navbar-toggler open-btn"><span
-                                    class="icon-bar first-angle"></span><span class="icon-bar middle-angle"></span><span
-                                    class="icon-bar last-angle"></span></button></div>
+                           <div class="showmenu">
+                              <button type="button"  class="navbar-toggler open-btn"><i class="fa-solid fa-bars"></i>
+                              </button>
+                           </div>
                         </div>
-                     </div> -->
-                     <div class="col-lg-3 col-md-6 col-6">
+                     </div>
+                     <div class="col-lg-2 col-md-6 col-6">
                         <div class="navbar-header"><a class="navbar-brand site-logo"><img
                                  src="./image/my-logo-1.jpg"
                                  alt=""><span>Mondal.</span></a></div>
@@ -69,8 +65,11 @@
                      </div>
                      <div class="col-lg-2 col-md-2 col-2">
                         <div class="header-right">
-                           <div class="header-btn"><a class="theme-btn" download="My Cv"
-                                 href="/static/media/cv.935c797a681df0dfc85a.jpg">Resume<i class="fa-sharp fa-solid fa-arrow-down"></i></a></div>
+                           <div class="header-btn">
+                              <a class="theme-btn" download="My Cv"
+                                 href="/static/media/cv.935c797a681df0dfc85a.jpg">
+                                 Resume
+                                 <i class="fa-sharp fa-solid fa-arrow-down"></i></a></div>
                         </div>
                      </div>
                   </div>
@@ -105,7 +104,7 @@
       </div>
       <div class="static-hero-right">
          <div class="static-hero-img">
-            <div class="static-hero-img-inner"><img src="https://elito-react.wpocean.com/static/media/1.0452114fb5668eb736db.jpg" alt="">
+            <div class="static-hero-img-inner"><img src="./image/profile.JPG" alt="">
                <div class="icon-1 floating-item"><img src="image/icons8-java.svg"
                      alt=""></div>
                <div class="icon-2 floating-item"><img src="image/icons8-javascript.svg"
@@ -128,14 +127,14 @@
          <div class="row align-items-center">
             <div class="col-lg-5 col-md-12 col-sm-12">
                <div class="row wpo-about">
-                  <div class="col-lg-12 col-md-12 col-sm-12 ">
+                  <div class="col-lg-12 col-md-6 col-sm-12 ">
                      <div class="wpo-about-exprience-wrap">
                         <div class="wpo-about-exprience">
                            <h2>1200+</h2><span>Hours of Coding</span>
                         </div>
                      </div>
                   </div>
-                  <div class="col-lg-12 col-md-12 col-sm-12">
+                  <div class="col-lg-12 col-md-6 col-sm-12">
                      <div class="wpo-about-exprience-wrap">
                         <div class="wpo-about-exprience">
                            <h2>1000+</h2><span>Hours of DSA</span>
@@ -419,12 +418,7 @@
       </div>
    </footer>
 </body>
-<script src="jquery.min.js"></script>
-<script src="./OwlCarousel/dist/owl.carousel.min.js"></script>
-<script>
-   $(document).ready(function () {
-         $(".owl-carousel").owlCarousel();
-      });
-</script>
+<!-- <script src="jquery.min.js"></script> -->
+<script src="app.js"></script>
 
 </html>
