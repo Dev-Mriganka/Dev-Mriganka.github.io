@@ -223,7 +223,7 @@ header {
 }
 
 .wpo-site-header .header-right {
-   align-items: right;
+   align-items: center;
    display: flex;
    justify-content: flex-end;
    position: relative;
