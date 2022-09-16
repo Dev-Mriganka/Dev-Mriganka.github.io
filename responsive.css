@@ -1,4 +1,3 @@
-
 @media (min-width: 576px) {
 
    .col-sm-12 {
@@ -6,21 +5,13 @@
       width: 100%;
    }
 
-   .col-sm-12 {
-      flex: 0 0 auto;
-      width: 100%;
-   }
+
 
    .container,
    .container-sm {
       max-width: 540px;
    }
 }
-
-
-
-
-
 
 
 
@@ -36,7 +27,10 @@
       flex: 0 0 auto;
       width: 50%;
    }
-
+   .col-md-4{
+      flex: 0 0 auto;
+      width: 33.33333333%;
+   }
    .col-md-1 {
       flex: 0 0 auto;
       width: 8.33333333%;
@@ -65,11 +59,13 @@
       flex: 0 0 58.33333%;
       max-width: 58.33333%;
    }
+   .col-md-10 {
+      /* -webkit-box-flex: 0; */
+      /* -ms-flex: 0 0 83.33333%; */
+      flex: 0 0 auto;
+      max-width: 83.33333%;
+   }
 }
-
-
-
-
 
 
 
@@ -86,7 +82,10 @@
       flex: 0 0 auto;
       width: 50%;
    }
-
+   .col-lg-4 {
+      flex: 0 0 auto;
+      width: 33.33333333%;
+   }
    .col-lg-2 {
       flex: 0 0 auto;
       width: 16.66666667%;
@@ -169,9 +168,12 @@
    .mobileMenu, .showmenu {
       display: none;
    }
+
+   .heading-section h2 {
+      font-size: 50px;
+      font-weight: 700;
+   }
 }
-
-
 
 
 
@@ -190,8 +192,6 @@
       width: 50%;
    }
 }
-
-
 
 
 
@@ -214,16 +214,13 @@
 
 
 
-
-
-
-
-
 @media (max-width: 1700px) {
    .wpo-site-header {
       padding: 0 30px;
    }
 }
+
+
 
 @media (max-width: 1600px) {
    .static-hero .static-hero-right {
@@ -270,12 +267,26 @@
    .hero-container .slide-title h2 span {
       font-size: 50px;
    }
+   .wpo-about-area .wpo-about-content .wpo-about-funfact .grid, .wpo-about-area-s2 .wpo-about-content .wpo-about-funfact .grid {
+      flex-basis: 27.33%;
+   }
+   .wpo-about-area .wpo-about-content .wpo-about-funfact .grid .grid-inner,
+   .wpo-about-area-s2 .wpo-about-content .wpo-about-funfact .grid .grid-inner {
+      padding: 15px;
+   }
 }
 
 
 
-
-
+@media (max-width: 1200px) {
+   .wpo-about-area .wpo-about-content .wpo-about-funfact .grid .grid-inner,
+   .wpo-about-area-s2 .wpo-about-content .wpo-about-funfact .grid .grid-inner {
+      padding: 20px;
+   }
+   .wpo-about-area .wpo-about-content .wpo-about-funfact .grid, .wpo-about-area-s2 .wpo-about-content .wpo-about-funfact .grid {
+      flex-basis: 26.33%;
+   }
+}
 
 
 
@@ -337,11 +348,6 @@
 
 
 
-
-
-
-
-
 @media (max-width: 1099px) {
    .static-hero .static-hero-right {
       max-width: 420px;
@@ -349,10 +355,6 @@
       top: 54%;
    }
 }
-
-
-
-
 
 
 
@@ -487,7 +489,22 @@
                background-size: 980px;
       
             }
+   .ftco-no-pb {
+      padding-bottom: 3em !important;
+   }
+
+   .wpo-about-area .wpo-about-exprience-wrap,
+   .wpo-about-area-s2 .wpo-about-exprience-wrap {
+      margin-bottom: 50px;
+   }
+   .wpo-about-area .wpo-about-content .wpo-about-funfact .grid,
+   .wpo-about-area-s2 .wpo-about-content .wpo-about-funfact .grid {
+      margin: 0 24px 30px;
+   }
+   
 }
+
+
 
 @media (max-width: 767px) {
    .wpo-header-style-1 
@@ -530,10 +547,32 @@
    .fa-arrow-down{
       margin-left: 0px;
    }
-      .static-hero {
-         background-size: 745px;
-      }
+   .static-hero {
+      background-size: 745px;
+   }
+   .mb-sm-5{
+      margin-bottom: 1rem !important;
+   }
+   .section-padding {
+      padding: 80px 0;
+   }
+   .wpo-about-area .wpo-about-content .wpo-about-funfact .grid,
+   .wpo-about-area-s2 .wpo-about-content .wpo-about-funfact .grid {
+      margin: 0 19px 30px;
+   }
+   .wpo-about-area .wpo-about-exprience-wrap .wpo-about-exprience h2, .wpo-about-area-s2 .wpo-about-exprience-wrap .wpo-about-exprience h2 {
+      font-size: 30px;
+      font-weight: 700;
+   }
+   .col-sm-6 {
+      flex: 0 0 auto;
+      width: 50%;
+   }
+   .wpo-blog-section { 
+      background: radial-gradient(circle at 50% 15%, rgb(65, 36, 36), transparent 800px), radial-gradient(circle at 50% 75%,rgba(30, 1, 41, 0.623), transparent 600px);
+   }
 }
+
 
 
 @media (max-width: 575px) {
@@ -571,7 +610,47 @@
       background-size: 570px;
 
    }
+
+   .contact-section .box .icon {
+      width: 80px;
+      height: 80px;
+      margin-bottom: 1.4em;
+   }
+   .contact-section .box .mb-4{
+      font-size: 1em;
+      margin-bottom: 0;
+   }
+   .wpo-wpo-contact-form-map .wpo-contact-form {
+      background: #222121;
+      border: 1px solid #464646;
+      border-radius: 5px;
+      box-shadow: 0 5px 15px 0 rgb(68 68 68 / 10%);
+      padding: 30px 25px 30px;
+   }
+   .contact-section .box.p-4{
+      padding: 0 !important;
+   }
+
+   .wpo-wpo-contact-form-map form input, .wpo-wpo-contact-form-map form select, .wpo-wpo-contact-form-map form textarea {
+      height: 30px;
+   }
+   .wpo-wpo-contact-form-map form textarea {
+      height: 72px;
+   }
+   .ftco-section {
+      padding: 4em 0.5em !important;
+   }
+   .ftco-no-pb {
+         padding-bottom: 3em !important;
+   }
+   .wpo-about-area .wpo-about-content .wpo-about-funfact .grid,
+   .wpo-about-area-s2 .wpo-about-content .wpo-about-funfact .grid {
+      margin: 0 15px 30px;
+   }
+
 }
+
+
 
 @media (max-width: 530px) {
    .static-hero .slide-title h2 {
@@ -598,9 +677,62 @@
    .static-hero {
       height: 800px;
    }
+   .wpo-about-area .wpo-about-content .wpo-about-funfact .grid, .wpo-about-area-s2 .wpo-about-content .wpo-about-funfact .grid {
+      flex-basis: 42.33%;
+   }
+   .ftco-section .resume-wrap p{
+      margin-top: 0;
+      line-height: 20px;
+      font-size: 12px;
+      margin-bottom: 1rem;
+   }
+   .resume-wrap h2 {
+      font-size: 20px;
+      line-height: 35px;
+      font-weight: 500;
+   }
+   .resume-wrap .date {
+      font-weight: 900;
+      font-size: 20px;
+      color: #ffbd39;
+   }
+   .ftco-section .resume-wrap .mt-4{
+      margin-top: 10px !important;
+   }
+   .col-sm-6 {
+      flex: 0 0 auto;
+      width: 50%;
+   }
+   .wpo-about-area .wpo-about-exprience-wrap .wpo-about-exprience h2, .wpo-about-area-s2 .wpo-about-exprience-wrap .wpo-about-exprience h2 {
+      font-size: 30px;
+      font-weight: 700;
+   }
+   .wpo-about-area .wpo-about-exprience-wrap .wpo-about-exprience,
+   .wpo-about-area-s2 .wpo-about-exprience-wrap .wpo-about-exprience{
+      padding: 20px 25px 20px;
+   }
+   .wpo-blog-section { 
+      background: radial-gradient(circle at 50% 25%, rgb(65, 36, 36), transparent 500px), radial-gradient(circle at 50% 75%,rgb(65, 36, 36), transparent 500px);
+   }
 }
 
 
+
+@media (max-width: 400px) {
+   .wpo-about-area .wpo-about-content .wpo-about-funfact .grid,
+   .wpo-about-area-s2 .wpo-about-content .wpo-about-funfact .grid {
+      flex-basis: 40%;
+   }
+   .contact-section .box .icon {
+      width: 70px;
+      height: 70px;
+      margin-bottom: 1.1em;
+   }
+   .contact-section .box .mb-4{
+      font-size: 0.8em;
+      margin-bottom: 0;
+   }
+}
 
 
 .wpo-site-header {

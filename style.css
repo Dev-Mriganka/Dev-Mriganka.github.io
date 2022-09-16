@@ -44,8 +44,13 @@ body {
    width: 100%;
 }
 
+.pb-2{
+   padding-bottom: 15px;
+}
 
-
+.pt-2 {
+   padding-top: 15px;
+}
 
 .container,
 .container-fluid,
@@ -76,6 +81,11 @@ body {
 .col-6 {
    flex: 0 0 auto;
    width: 50%;
+}
+
+.col-4 {
+   flex: 0 0 auto;
+   width: 33.3333333%;
 }
 
 .col-2 {
@@ -560,6 +570,110 @@ header {
 
 
 
+.ftco-section.resume-section {
+   padding: 7em 0;
+   position: relative;
+   background:
+      radial-gradient(circle at 15% 0%,
+         rgba(51, 48, 22, 0.596), transparent 800px),
+      radial-gradient(circle at 110% 55%,
+         rgb(27, 45, 61), transparent 700px);
+}
+/* .ftco-animate {
+   opacity: 0;
+   visibility: hidden;
+} */
+.resume-wrap {
+   width: 100%;
+   margin-bottom: 30px;
+   background: rgba(255, 255, 255, 0.1);
+   padding: 30px;
+   border-radius: 5px;
+}
+
+.fadeInUp {
+   animation-name: fadeInUp;
+}
+.ftco-animated {
+   animation-duration: .5s;
+   animation-fill-mode: both;
+}
+
+.resume-wrap .date {
+   font-weight: 900;
+   font-size: 26px;
+   color: #ffbd39;
+}
+
+.resume-wrap span {
+   font-weight: 900;
+   font-size: 26px;
+   color: #d5faff;
+}
+
+.resume-wrap h2 {
+   font-size: 26px;
+   line-height: 45px;
+   font-weight: 500;
+}
+
+.resume-wrap .position {
+   font-size: 12px;
+   font-weight: 600;
+   letter-spacing: 3px;
+   text-transform: uppercase;
+}
+
+.mt-4,
+.my-4 {
+   margin-top: 1.5rem !important;
+}
+.ftco-section .resume-wrap p{
+   margin-top: 0;
+   line-height: 30px;
+   margin-bottom: 1rem;
+}
+.pb-5,
+.py-5 {
+   padding-bottom: 3rem !important;
+}
+.mt-5,
+.my-5 {
+   margin-top: 3rem !important;
+}
+
+.btn.btn-primary {
+   background: #59c378;
+   /* border: 1px solid #59c378 !important; */
+   /* color: #000000 !important; */
+   z-index: 999;
+   padding: 15px 30px;
+   color: #fff;
+   font-size: 18px;
+   letter-spacing: 1px;
+   border-radius: 35px;
+   border: none;
+}
+.ftco-section .heading-section p {
+   margin-top: 0;
+   line-height: 30px;
+   margin-bottom: 1rem;
+   font-weight: 300;
+   text-shadow: 2px 2px #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -824,30 +938,19 @@ header {
    text-align: center;
 }
 
-.wpo-section-title h2,
-.wpo-section-title-s2 h2 {
-   color: #fff;
-   display: inline-block;
-   font-family: Inter, sans-serif;
-   font-size: 48px;
-   font-weight: 700;
-   line-height: 55px;
-   margin: 10px 0 0;
-   padding-bottom: 20px;
-   position: relative;
+.portfolio .heading-section p {
+   margin-top: 0;
+   line-height: 30px;
+   margin-bottom: 1rem;
+   font-weight: 300;
+   text-shadow: 2px 2px #000000;
 }
 
-.wpo-section-title p,
-.wpo-section-title-s2 p {
-   color: #d8d8d8;
-   font-size: 18px;
-   margin-bottom: 0;
-}
 .justify-content-center {
    justify-content: center !important;
 }
 
-.work {
+/* .work {
    background-size: cover;
    background-position: center center;
    background-repeat: no-repeat;
@@ -857,7 +960,7 @@ header {
    display: table;
    overflow: hidden;
 }
-.work .desc {
+/* .work .desc {
    display: table-cell;
    vertical-align: middle;
    height: 270px;
@@ -866,7 +969,7 @@ header {
    -webkit-transition: 0.3s;
    -o-transition: 0.3s;
    transition: 0.3s;
-}
+} */ */
 
 .col-padding {
    padding: 6px !important;
@@ -877,23 +980,165 @@ header {
    text-align: center;
 }
 
-.animated-fast {
+/* .animated-fast {
    -webkit-animation-duration: .5s;
    animation-duration: .5s;
    -webkit-animation-fill-mode: both;
    animation-fill-mode: both;
+} */
+/* .portfolio-container{
+   position: relative;
+   height: 999px;
+} */
+.img-fluid {
+   max-width: 100%;
+   height: auto;
+}
+.portfolio .portfolio-wrap {
+   transition: 0.3s;
+   position: relative;
+   overflow: hidden;
+   z-index: 1;
+   background: rgba(0, 0, 0, 0.6);
 }
 
-/* @media (min-width: 992px) {.col-md-3 {
-   width: 25%;
+.portfolio .portfolio-wrap .portfolio-info {
+   opacity: 0;
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   text-align: center;
+   z-index: 3;
+   transition: all ease-in-out 0.3s;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
 }
-} */
+
+.portfolio .portfolio-wrap .portfolio-info h4 {
+   font-size: 20px;
+   color: #fff;
+   line-height: 30px;
+   font-weight: 600;
+}
+
+.portfolio .portfolio-wrap .portfolio-info p {
+   color: #ffffff;
+   font-size: 14px;
+   line-height: 30px;
+   text-transform: uppercase;
+   padding: 0;
+   margin: 0;
+}
+
+.portfolio .portfolio-wrap .portfolio-links {
+   text-align: center;
+   z-index: 4;
+}
+
+.portfolio .portfolio-wrap .portfolio-links a {
+   color: #fff;
+   margin: 0 2px;
+   font-size: 22px;
+   display: inline-block;
+   transition: 0.3s;
+}
+
+.bx {
+   font-family: boxicons !important;
+   font-weight: 400;
+   font-style: normal;
+   font-variant: normal;
+   line-height: 1;
+   text-rendering: auto;
+   display: inline-block;
+   text-transform: none;
+}
+
+.portfolio .portfolio-wrap::before {
+   content: "";
+   background: rgba(0, 0, 0, 0.6);
+   position: absolute;
+   left: 30px;
+   right: 30px;
+   top: 30px;
+   bottom: 30px;
+   transition: all ease-in-out 0.3s;
+   z-index: 2;
+   opacity: 0;
+}
+.portfolio .portfolio-wrap:hover::before {
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   opacity: 1;
+}
+
+
+.portfolio .portfolio-wrap .portfolio-info::before {
+   display: block;
+   content: "";
+   width: 48px;
+   height: 48px;
+   position: absolute;
+   top: 35px;
+   left: 35px;
+   border-top: 3px solid #fff;
+   border-left: 3px solid #fff;
+   transition: all 0.5s ease 0s;
+   z-index: 9994;
+}
+
+
+.portfolio .portfolio-wrap .portfolio-info::after {
+   display: block;
+   content: "";
+   width: 48px;
+   height: 48px;
+   position: absolute;
+   bottom: 35px;
+   right: 35px;
+   border-bottom: 3px solid #fff;
+   border-right: 3px solid #fff;
+   transition: all 0.5s ease 0s;
+   z-index: 9994;
+}
+
+.portfolio .portfolio-wrap:hover .portfolio-info::before {
+   top: 15px;
+   left: 15px;
+}
+
+.portfolio .portfolio-wrap:hover .portfolio-info::after {
+   bottom: 15px;
+   right: 15px;
+}
+
+
+.portfolio .portfolio-wrap:hover .portfolio-info {
+   opacity: 1;
+}
+
+.portfolio .portfolio-wrap .portfolio-links a:hover {
+   color: #63eda3;
+}
+
+
+
+
+
+
+
 
 
 
 
 /* ========== Contact Form ========= */
-.ftco-section {
+.ftco-section.contact-section {
    padding: 7em 0;
    position: relative;
    background:
@@ -916,7 +1161,7 @@ header {
 }
 
 .heading-section h2 {
-   font-size: 50px;
+   font-size: 2.2em;
    font-weight: 700;
 }
 
@@ -953,8 +1198,6 @@ header {
 
 .p-4 {
    padding: 1.5rem !important;
-   padding-top: 1rem !important;
-   padding-bottom: 1rem !important;
 }
 
 .pl-0 {
