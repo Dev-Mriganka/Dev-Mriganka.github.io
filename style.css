@@ -101,6 +101,7 @@ body {
 
 
 
+
 .navbar {
    align-items: center;
    display: flex;
@@ -118,6 +119,15 @@ body {
    z-index: 5555;
 }
 
+.fixed {
+   position: fixed;
+   width: 100%;
+   top: 0;
+   z-index: 9999999;
+   background-color: #fff;
+}
+
+
 header {
    display: block;
 }
@@ -130,6 +140,11 @@ header {
    top: 0;
    width: 100%;
    z-index: 99;
+}
+
+.fixed-navbar.scrolled{
+   background-color: #131313 !important;
+   height: 100px;
 }
 
 .wpo-site-header .navigation {
@@ -1361,4 +1376,20 @@ textarea {
 
 .fw-600 {
    font-weight: 600 !important;
+}
+
+
+.social-icons ul {
+   display: flex;
+   overflow: hidden;
+   
+}
+
+.social-icons{
+   margin: auto;
+}
+
+.social-icons ul li{
+   margin: 0px 10px;
+   font-size: 20px;
 }

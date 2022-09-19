@@ -173,6 +173,9 @@
       font-size: 50px;
       font-weight: 700;
    }
+   .github{
+      width: 800px!important;
+   }
 }
 
 
@@ -735,7 +738,7 @@
 }
 
 
-.wpo-site-header {
+/* .wpo-site-header {
    background: transparent;
    left: 0;
    padding: 0;
@@ -743,5 +746,5 @@
    top: 0;
    width: 100%;
    z-index: 99;
-}
+} */
 

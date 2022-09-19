@@ -7,3 +7,13 @@ document.querySelector(".menu-close").addEventListener("click", function () {
    // console.log("hi");
 });
 // openBtn()
+
+// var height = $('.fixed-navbar').height();
+
+// $(window).scroll(function () {
+//    if ($(this).scrollTop() > height) {
+//       $('.wpo-site-header').addClass('fixed')
+//    } else {
+//       $('.wpo-site-header').removeClass('fixed')
+//    }
+// })
