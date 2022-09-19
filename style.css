@@ -1150,7 +1150,9 @@ header {
    color: #63eda3;
 }
 
-
+.float-right.color-fg-muted{
+   display: none !important;
+}
 
 
 
