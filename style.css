@@ -908,7 +908,11 @@ header {
    background: linear-gradient(180deg, rgb(146, 146, 146), rgba(31, 30, 28, .6) 67.59%);
 }
 
-
+.logo-img {
+   background-color: rgb(255, 255, 255);
+   -webkit-mask: url(./image/hibernate-icon.svg) no-repeat center;
+   mask: url(./image/hibernate-icon.svg) no-repeat center;
+}
 
 
 
