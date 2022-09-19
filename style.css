@@ -1,3 +1,7 @@
+@import url(https://fonts.googleapis.com/css?family=Cutive+Mono);
+
+
+
 *{
    margin: 0;
    padding: 0;
@@ -865,7 +869,7 @@ header {
    background: #1f1e1d;
    border-radius: 12px;
    margin: 3px 3px 0;
-   padding: 40px;
+   padding: 30px;
    text-align: center;
 }
 
