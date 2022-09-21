@@ -148,7 +148,7 @@ header {
 
 .fixed-navbar.scrolled{
    background-color: #131313 !important;
-   height: 100px;
+   height: 95px;
 }
 
 .wpo-site-header .navigation {
@@ -1150,10 +1150,12 @@ header {
    color: #63eda3;
 }
 
-.float-right.color-fg-muted{
+/* .float-right.color-fg-muted{
    display: none !important;
+} */
+.js-calendar-graph{
+   flex-direction: column !important;
 }
-
 
 
 
@@ -1384,9 +1386,13 @@ textarea {
    font-weight: 600 !important;
 }
 
+.social{
+   display: flex;
+   justify-content: center;
+}
 
 .social-icons ul {
-   display: flex;
+   /* display: flex; */
    overflow: hidden;
    
 }

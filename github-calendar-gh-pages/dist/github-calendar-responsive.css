@@ -26,6 +26,10 @@ rect.ContributionCalendar-day[data-level='4'] {
     fill: var(--color-calendar-graph-day-L4-bg);
 }
 
+/* rect{
+    height: 12px;
+    width: 12px;
+} */
 .calendar .width-full > .float-left {
     display: none;
 }
@@ -49,7 +53,7 @@ rect.ContributionCalendar-day[data-level='4'] {
     text-align: right;
     padding: 0 14px 10px 0;
     display: inline-block;
-    float: right;
+    /* float: right; */
 }
 
 .contrib-legend .legend {

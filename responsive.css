@@ -174,7 +174,7 @@
       font-weight: 700;
    }
    .github{
-      width: 850px!important;
+      max-width: 750px!important;
    }
 }
 
@@ -504,7 +504,9 @@
    .wpo-about-area-s2 .wpo-about-content .wpo-about-funfact .grid {
       margin: 0 24px 30px;
    }
-   
+   .social {
+      padding-bottom: 3px;
+   }
 }
 
 
@@ -574,6 +576,24 @@
    .wpo-blog-section { 
       background: radial-gradient(circle at 50% 15%, rgb(65, 36, 36), transparent 800px), radial-gradient(circle at 50% 75%,rgba(30, 1, 41, 0.623), transparent 600px);
    }
+   .js-calendar-graph{
+      overflow-x: scroll !important;
+   }
+   ::-webkit-scrollbar{
+      height: 2px;
+   }
+
+   ::-webkit-scrollbar-track{
+      background: rgb(255, 255, 255);
+   }
+   ::-webkit-scrollbar-thumb {
+      background: #ffbd39;
+   }
+   
+   ::-webkit-scrollbar-thumb:hover {
+      background: var(--first-color-alt);
+   }
+
 }
 
 
@@ -718,9 +738,6 @@
       background: radial-gradient(circle at 50% 25%, rgb(65, 36, 36), transparent 500px), radial-gradient(circle at 50% 75%,rgb(65, 36, 36), transparent 500px);
    }
 
-   .js-calendar-graph-svg g{
-      /* transform:translate(-450px,20px); */
-   }
 }
 
 
