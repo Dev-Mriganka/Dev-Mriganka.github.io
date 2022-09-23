@@ -580,11 +580,11 @@
       overflow-x: scroll !important;
    }
    ::-webkit-scrollbar{
-      height: 2px;
+      height: 1px;
    }
 
    ::-webkit-scrollbar-track{
-      background: rgb(255, 255, 255);
+      /* background: rgb(255, 255, 255); */
    }
    ::-webkit-scrollbar-thumb {
       background: #ffbd39;
@@ -670,6 +670,10 @@
    .wpo-about-area-s2 .wpo-about-content .wpo-about-funfact .grid {
       margin: 0 15px 30px;
    }
+      .navbar-brand {
+         font-size: 1.25rem;
+         margin-right: 0rem;
+      }
 
 }
 

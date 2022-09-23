@@ -102,6 +102,10 @@ body {
    width: 8.33333333%;
 }
 
+.col-0{
+   flex: 0 0 auto;
+   width: 0%;
+}
 
 
 
