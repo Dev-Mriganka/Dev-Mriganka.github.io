@@ -507,6 +507,9 @@
    .social {
       padding-bottom: 3px;
    }
+      .theme-btn.resume-btn {
+         width: 140px;
+      }
 }
 
 
@@ -593,7 +596,9 @@
    ::-webkit-scrollbar-thumb:hover {
       background: var(--first-color-alt);
    }
-
+   .theme-btn.resume-btn{
+      width: 100px;
+   }
 }
 
 
