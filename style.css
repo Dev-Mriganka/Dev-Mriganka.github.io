@@ -2,18 +2,18 @@
 
 
 
-*{
+* {
    margin: 0;
    padding: 0;
    box-sizing: border-box;
 }
 
-a{
+a {
    color: inherit;
    text-decoration: none;
 }
 
-li{
+li {
    list-style-type: none;
 }
 
@@ -48,7 +48,7 @@ body {
    width: 100%;
 }
 
-.pb-2{
+.pb-2 {
    padding-bottom: 15px;
 }
 
@@ -102,7 +102,7 @@ body {
    width: 8.33333333%;
 }
 
-.col-0{
+.col-0 {
    flex: 0 0 auto;
    width: 0%;
 }
@@ -150,7 +150,7 @@ header {
    z-index: 99;
 }
 
-.fixed-navbar.scrolled{
+.fixed-navbar.scrolled {
    background-color: #131313 !important;
    height: 95px;
 }
@@ -180,7 +180,7 @@ header {
    position: relative;
 }
 
-.fixed-navbar .container{
+.fixed-navbar .container {
    align-items: center;
    display: flex;
    /* flex-wrap: inherit; */
@@ -213,7 +213,7 @@ header {
    /* padding-left: 20px; */
 }
 
-.wpo-site-header .navbar-brand.site-logo span{
+.wpo-site-header .navbar-brand.site-logo span {
    padding-top: 10px;
    padding-left: 10px;
 }
@@ -268,14 +268,14 @@ header {
    position: relative;
 }
 
-.fa-arrow-down{
+.fa-arrow-down {
    margin-left: 10px;
 }
 
 .wpo-site-header #navbar>ul li a:focus,
 .wpo-site-header #navbar>ul li a:hover {
 
-   border-bottom:4px solid #46bc69;
+   border-bottom: 4px solid #46bc69;
    border-radius: 2px;
    text-decoration: none;
 }
@@ -303,7 +303,7 @@ header {
    z-index: 9999;
 }
 
-.showmenu button{
+.showmenu button {
    background: #59c378;
    cursor: pointer;
    position: relative;
@@ -400,7 +400,7 @@ header {
    z-index: 1;
 }
 
-.hero-container .container{
+.hero-container .container {
    margin-left: auto;
    margin-right: auto;
    padding-left: 0.75rem;
@@ -441,6 +441,7 @@ header {
    display: block;
    font-size: 60px;
 }
+
 .hero-container .slide-title h2 {
    color: #fff;
    font-size: 90px;
@@ -483,7 +484,7 @@ header {
    z-index: 1;
 }
 
-.fa-arrow-right{
+.fa-arrow-right {
    margin-left: 15px;
 }
 
@@ -504,6 +505,7 @@ header {
    transform: translateY(-50%);
    z-index: 1;
 }
+
 .static-hero .static-hero-right .icon-1,
 .static-hero .static-hero-right .icon-2,
 .static-hero .static-hero-right .icon-3 {
@@ -523,6 +525,7 @@ header {
 .static-hero .static-hero-right img {
    border-radius: 50%;
 }
+
 .static-hero .static-hero-right .project {
    align-items: center;
    -webkit-animation: bounceTop 3s linear infinite;
@@ -535,11 +538,13 @@ header {
    padding: 10px 20px;
    position: absolute;
 }
+
 .static-hero .static-hero-right .project .p-text h3 {
    color: #202020;
    font-size: 25px;
    margin-bottom: 0;
 }
+
 .static-hero .static-hero-right .project .p-text p {
    color: #585858;
    font-size: 15px;
@@ -550,13 +555,14 @@ header {
    left: auto;
    right: 0;
 }
-.static-hero .static-hero-right .floating-item{
+
+.static-hero .static-hero-right .floating-item {
 
    animation: float 6s ease-in-out infinite;
 
 }
 
-.static-hero .static-hero-right .floating-item img{
+.static-hero .static-hero-right .floating-item img {
    border-radius: 0%;
 }
 
@@ -566,22 +572,25 @@ header {
    right: 10%;
    top: auto;
 }
-.icon .fa-circle-check{
+
+.icon .fa-circle-check {
    color: #59c378;
    font-size: 30px;
    padding-right: 5px;
 }
 
-@keyframes float{
+@keyframes float {
 
-   0%{
-      box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.6);
-      transform: translate(0px,0px);
+   0% {
+      box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.6);
+      transform: translate(0px, 0px);
    }
+
    50% {
       box-shadow: 0px 15px 15px 0px rgba(0, 0, 0, 0.6);
-      transform: translate(-20px,-20px);
+      transform: translate(-20px, -20px);
    }
+
    100% {
       box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.6);
       transform: translate(0px, 0px);
@@ -602,6 +611,7 @@ header {
       radial-gradient(circle at 110% 55%,
          rgb(27, 45, 61), transparent 700px);
 }
+
 /* .ftco-animate {
    opacity: 0;
    visibility: hidden;
@@ -617,6 +627,7 @@ header {
 .fadeInUp {
    animation-name: fadeInUp;
 }
+
 .ftco-animated {
    animation-duration: .5s;
    animation-fill-mode: both;
@@ -651,15 +662,18 @@ header {
 .my-4 {
    margin-top: 1.5rem !important;
 }
-.ftco-section .resume-wrap p{
+
+.ftco-section .resume-wrap p {
    margin-top: 0;
    line-height: 30px;
    margin-bottom: 1rem;
 }
+
 .pb-5,
 .py-5 {
    padding-bottom: 3rem !important;
 }
+
 .mt-5,
 .my-5 {
    margin-top: 3rem !important;
@@ -677,6 +691,7 @@ header {
    border-radius: 35px;
    border: none;
 }
+
 .ftco-section .heading-section p {
    margin-top: 0;
    line-height: 30px;
@@ -713,16 +728,17 @@ header {
 
 .wpo-about-area {
    background:
-         url(/image/line2.png),
-         radial-gradient(circle at 95% 70%,
-            rgb(42, 23, 50), transparent 800px),
-         /* radial-gradient(circle at center, rgb(69, 63, 14) 0% 80%, #0000 81% 100%); */
-         radial-gradient(circle at 15% 100%,
-            rgb(51, 48, 22), transparent 800px);
-      background-repeat: no-repeat;
-      background-position: top right;
-      background-blend-mode:darken;
+      url(/image/line2.png),
+      radial-gradient(circle at 95% 70%,
+         rgb(42, 23, 50), transparent 800px),
+      /* radial-gradient(circle at center, rgb(69, 63, 14) 0% 80%, #0000 81% 100%); */
+      radial-gradient(circle at 15% 100%,
+         rgb(51, 48, 22), transparent 800px);
+   background-repeat: no-repeat;
+   background-position: top right;
+   background-blend-mode: darken;
 }
+
 .section-padding {
    padding: 120px 0;
 }
@@ -751,8 +767,8 @@ header {
    font-weight: 700;
 }
 
-.wpo-about div:nth-child(2) .wpo-about-exprience-wrap h2{
-   color: #6e03ac!important;
+.wpo-about div:nth-child(2) .wpo-about-exprience-wrap h2 {
+   color: #6e03ac !important;
 }
 
 .wpo-about-area .wpo-about-exprience-wrap .wpo-about-exprience span,
@@ -815,6 +831,7 @@ header {
    margin-bottom: 0;
    margin-right: 10px;
 }
+
 .wpo-about-area .wpo-about-exprience-wrap .client p,
 .wpo-about-area-s2 .wpo-about-exprience-wrap .client p {
    color: #fff;
@@ -949,12 +966,12 @@ header {
    position: relative;
    z-index: 1;
    background:
-         /* radial-gradient(circle at 13% 30%,
+      /* radial-gradient(circle at 13% 30%,
             rgb(64, 26, 30), transparent 600px), */
-         /* radial-gradient(circle at center, rgb(69, 63, 14) 0% 80%, #0000 81% 100%); */
-         radial-gradient(circle at 50% 50%,
-            rgb(65, 36, 36), transparent 800px);
-         /* radial-gradient(circle at 60% 60%, rgb(69, 63, 14), transparent 500px),
+      /* radial-gradient(circle at center, rgb(69, 63, 14) 0% 80%, #0000 81% 100%); */
+      radial-gradient(circle at 50% 50%,
+         rgb(65, 36, 36), transparent 800px);
+   /* radial-gradient(circle at 60% 60%, rgb(69, 63, 14), transparent 500px),
          radial-gradient(circle at 98% 98%,
             rgba(44, 0, 4, 0.486), transparent 200px); */
 }
@@ -996,9 +1013,8 @@ header {
    -webkit-transition: 0.3s;
    -o-transition: 0.3s;
    transition: 0.3s;
-} */ */
-
-.col-padding {
+} */
+*/ .col-padding {
    padding: 6px !important;
    margin: 0px !important;
 }
@@ -1021,6 +1037,7 @@ header {
    max-width: 100%;
    height: auto;
 }
+
 .portfolio .portfolio-wrap {
    transition: 0.3s;
    position: relative;
@@ -1030,7 +1047,7 @@ header {
 }
 
 .portfolio .portfolio-wrap .portfolio-info {
-   opacity: 0;
+   opacity: 100;
    position: absolute;
    top: 0;
    left: 0;
@@ -1043,6 +1060,15 @@ header {
    flex-direction: column;
    justify-content: center;
    align-items: center;
+   background: rgba(0, 0, 0, 0.6);
+}
+
+.portfolio .portfolio-container .description{
+   text-align: center;
+   margin: 7px auto;
+   line-height: 25px;
+   color: #ffffff;
+   /* border: 2px solid rgb(243, 35, 35); */
 }
 
 .portfolio .portfolio-wrap .portfolio-info h4 {
@@ -1097,6 +1123,7 @@ header {
    z-index: 2;
    opacity: 0;
 }
+
 .portfolio .portfolio-wrap:hover::before {
    top: 0;
    left: 0;
@@ -1157,7 +1184,7 @@ header {
 /* .float-right.color-fg-muted{
    display: none !important;
 } */
-.js-calendar-graph{
+.js-calendar-graph {
    flex-direction: column !important;
 }
 
@@ -1173,10 +1200,10 @@ header {
    padding: 7em 0;
    position: relative;
    background:
-         radial-gradient(circle at 0% 5%,
-               rgb(36, 43, 75), transparent 800px) ,
-            radial-gradient(circle at 98% 98%,
-               rgb(61, 57, 27), transparent 700px);
+      radial-gradient(circle at 0% 5%,
+         rgb(36, 43, 75), transparent 800px),
+      radial-gradient(circle at 98% 98%,
+         rgb(61, 57, 27), transparent 700px);
 }
 
 .ftco-no-pb {
@@ -1255,7 +1282,7 @@ header {
 .contact-section .box .icon span {
    color: #ffbd39;
    font-size: 30px;
-} 
+}
 
 .heading-section h1.big {
    position: absolute;
@@ -1267,12 +1294,12 @@ header {
    font-weight: 900;
 }
 
-.heading-section p{
+.heading-section p {
 
    letter-spacing: 1px;
 }
 
-.icon i{
+.icon i {
    color: rgb(255, 189, 57);
    font-size: 35px;
 }
@@ -1365,8 +1392,8 @@ textarea {
    width: 100%;
 }
 
-.icon .png{
-   filter:hue-rotate(180deg);
+.icon .png {
+   filter: hue-rotate(180deg);
    /* font-size: 35px; */
 }
 
@@ -1390,7 +1417,7 @@ textarea {
    font-weight: 600 !important;
 }
 
-.social{
+.social {
    display: flex;
    justify-content: center;
 }
@@ -1398,14 +1425,14 @@ textarea {
 .social-icons ul {
    /* display: flex; */
    overflow: hidden;
-   
+
 }
 
-.social-icons{
+.social-icons {
    margin: auto;
 }
 
-.social-icons ul li{
+.social-icons ul li {
    margin: 0px 10px;
    font-size: 20px;
 }
