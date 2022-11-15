@@ -523,7 +523,7 @@
    .wpo-site-header 
    .header-right 
    .view-cart-btn {
-      padding: 10px 14px 10px 15px;
+      padding: 10px 0px 10px 15px;
    }
    .static-hero {
       height: 900px;
@@ -597,7 +597,7 @@
       background: var(--first-color-alt);
    }
    .theme-btn.resume-btn{
-      width: 100px;
+      width: 85px;
    }
 }
 
