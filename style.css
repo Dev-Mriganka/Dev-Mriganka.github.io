@@ -385,6 +385,10 @@ header {
 
 }
 
+.container.mobile-small {
+   padding-right: 0rem !important;
+}
+
 .hero-container .hero-inner {
    align-items: center;
    background-position: 50%;
@@ -404,9 +408,7 @@ header {
    margin-left: auto;
    margin-right: auto;
    padding-left: 0.75rem;
-   padding-left: var(--bs-gutter-x, .75rem);
    padding-right: 0.75rem;
-   padding-right: var(--bs-gutter-x, .75rem);
    width: 100%;
 }
 
@@ -1063,7 +1065,7 @@ header {
    background: rgba(0, 0, 0, 0.6);
 }
 
-.portfolio .portfolio-container .description{
+.portfolio .portfolio-container .description {
    text-align: center;
    margin: 7px auto;
    line-height: 25px;
