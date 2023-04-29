@@ -31,7 +31,7 @@ I'm Mriganka, a Fullstack developer from Kolkata. I love to explore new things a
 - My Projects
 - My Skill Set
 
-### You can visit my portfolio [Click here ](https://dev-faiz.github.io)
+### You can visit my portfolio [Click here ](https://dev-mriganka.github.io)
 
 
 
