@@ -1,4 +1,3 @@
-# Movies App Youtube Clone
 
 
 <img align="right" alt="Coding" width="400" src="https://github.com/Dev-Mriganka/Dev-Mriganka.github.io/blob/main/image/Portfolio.jpg">
